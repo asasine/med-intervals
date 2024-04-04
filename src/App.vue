@@ -12,7 +12,7 @@ const footer_links = [
 // TODO: debounce these refs before sending them to IntervalsList
 const start = ref<DateTime>(DateTime.now().startOf("minute"));
 const debouncedStart = refDebounced(start, 300);
-const interval = ref<Duration>(Duration.fromObject({ hours: 8 }));
+const interval = ref<Duration>(Duration.fromObject({ hours: 6 }));
 const debouncedInterval = refDebounced(interval, 300);
 </script>
 
